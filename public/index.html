@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pawsphere</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pawsphere</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><input type="text" placeholder="Search..." id="search-bar"></li>
+                <li>
+                    <button id="login-btn" onclick="window.location.href='backend/public/login.html'">
+                        <img src="images/icons8-dog-48.png" alt="login">
+                        <span>Login</span>
+                    </button>
+                </li>
+                
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Welcome to Pawsphere</h2>
+            <p>Your one-stop destination for all pet needs.</p>
+            <button id="shop-now">Shop Now</button>
+        </div>
+        <img src="images/hero.png" alt="Happy pet image">
+    </section>
+    
+    <section id="services">
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <img src="images/petadopt.png" alt="Adopt a Pet">
+                    <button class="service-btn" onclick="window.location.href='pages/adopt.html'">Adopt a Pet</button>
+                </div>
+                <div class="service-item">
+                    <img src="images/petvet.jpg" alt="Book Vet Appointment">
+                    <button class="service-btn" onclick="window.location.href='pages/vet.html'">Book Vet Appointment</button>
+                </div>
+                <div class="service-item">
+                    <img src="images/petwalk.png" alt="Book Pet Walker">
+                    <button class="service-btn" onclick="window.location.href='pages/walker.html'">Book Pet Walker</button>
+                </div>
+                <div class="service-item">
+                    <img src="images/petrain.png" alt="Pet Training">
+                    <button class="service-btn" onclick="window.location.href='pages/training.html'">Pet Training</button>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>Contact: +1386454315 | Instagram: <a href="https://instagram.com/PawSphere" target="_blank">@PawSphere</a> | Email: pawsphere@gmail.com</p>
+            <p>&copy; 2025 PawSphere. All rights reserved.</p>
+        </footer>
+</body>
+</html>
+
+
